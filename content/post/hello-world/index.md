@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: 特零的马克思主义学习打卡
 description: Welcome to Hugo Theme Stack
 slug: hello-world
 date: 2022-03-06 00:00:00+0000
