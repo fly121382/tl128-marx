@@ -1,6 +1,6 @@
 ---
-title: Example Category
-description: A description of this category
+title: 学习打卡
+description: 特零的马克思主义学习打卡
 image:
 
 # Badge style

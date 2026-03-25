@@ -22,3 +22,11 @@
 
     [social.params]
         icon = "dark-coffin"
+
+[[social]]
+    identifier = "zhihu"
+    name       = "特零128知乎主页"
+    url        = "https://www.zhihu.com/people/futurer-38"
+
+    [social.params]
+        icon = "thumb-up"
