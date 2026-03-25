@@ -8,6 +8,7 @@ categories:
     - learning-notes
 tags:
     - 毛泽东
+    - 党风党纪
 ---
 
 # 评论

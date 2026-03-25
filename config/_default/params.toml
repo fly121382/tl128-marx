@@ -10,7 +10,7 @@ favicon        = "img/favicon.png"
 SortBy              = "default"
 
 [footer]
-    since      = 2020
+    since      = 2022
     customText = ""
 
 [dateFormat]
@@ -18,7 +18,7 @@ SortBy              = "default"
     lastUpdated = ":date_full"
 
 [sidebar]
-    emoji    = "🍥"
+    emoji    = "☭"
     subtitle = "全世界无产者，联合起来"
     avatar   = "img/avatar.png"
 
