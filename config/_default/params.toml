@@ -19,7 +19,7 @@ SortBy              = "default"
 
 [sidebar]
     emoji    = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    subtitle = "每个人的自由是一切人的自由发展的条件。"
     avatar   = "img/avatar.png"
 
 [article]

@@ -8,17 +8,17 @@
 #newtab = true
 
 [[social]]
-    identifier = "github"
-    name       = "GitHub"
-    url        = "https://github.com/CaiJimmy/hugo-theme-stack"
+    identifier = "tl128"
+    name       = "特零128小站"
+    url        = "https://tl128.hubingsf.cn/"
 
     [social.params]
-        icon = "brand-github"
+        icon = "star"
 
 [[social]]
-    identifier = "twitter"
-    name       = "Twitter"
-    url        = "https://twitter.com"
+    identifier = "dark-coffin"
+    name       = "黑柩创作站"
+    url        = "https://darkcoffin.hubingsf.cn"
 
     [social.params]
-        icon = "brand-twitter"
+        icon = "dark-coffin"
