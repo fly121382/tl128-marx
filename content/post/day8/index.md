@@ -3,7 +3,7 @@ title: Day8：别了，司徒雷登
 description: 原作者：毛泽东
 slug: day8
 date: 2022-02-20 00:00:00+0000
-image: day8.jpg
+image: day8.png
 categories:
     - learning-notes
 tags:
