@@ -2,7 +2,7 @@
 title: Day65：关心群众生活，注意工作方法
 description: 原作者：毛泽东
 slug: day65
-date: 2022-06-06 00:00:00+0000
+date: 2022-06-05 00:00:00+0000
 image: day65.jpg
 categories:
     - learning-notes
