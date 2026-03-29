@@ -1,47 +1,53 @@
 <img align="right" width="150" alt="logo" src="https://user-images.githubusercontent.com/5889006/190859553-5b229b4f-c476-4cbd-928f-890f5265ca4c.png">
 
-# Hugo Theme Stack Starter Template
+# Hugo Theme Stack 入门模板
 
-This is a quick start template for [Hugo theme Stack](https://github.com/CaiJimmy/hugo-theme-stack). It uses [Hugo modules](https://gohugo.io/hugo-modules/) feature to load the theme.
+这是一个 [Hugo theme Stack](https://github.com/CaiJimmy/hugo-theme-stack) 的快速入门模板。它使用 [Hugo modules](https://gohugo.io/hugo-modules/) 功能加载主题。
 
-It comes with a basic theme structure and configuration. GitHub action has been set up to deploy the theme to a public GitHub page automatically. Also, there's a cron job to update the theme automatically everyday.
+它包含一个基本的主题结构和配置。GitHub Action 已设置，可自动将主题部署到公共 GitHub 页面。此外，还有一个 cron 任务，可每天自动更新主题。
 
-## Video Tutorial
+## 视频教程
 
-In case you got lost during the setup process, here's a video tutorial that setups a new Hugo site using this template, and deploys it to GitHub Pages: https://www.youtube.com/watch?v=8qDdQQ6Ifxo
+如果您在设置过程中遇到任何问题，这里有一个视频教程，演示如何使用此模板设置一个新的 Hugo 站点并将其部署到 GitHub Pages：https://www.youtube.com/watch?v=8qDdQQ6Ifxo
 
-## Get started
+## 开始使用
 
-1. Click *Use this template*, and create your repository as `<username>.github.io` on GitHub. (You can also use a different repository name, but then the resulting website will be available at `https://<username>.github.io/<repository-name>`. )
-![Step 1](https://user-images.githubusercontent.com/5889006/156916624-20b2a784-f3a9-4718-aa5f-ce2a436b241f.png)
+1. 点击“使用此模板”，在 GitHub 上创建名为 `<username>.github.io` 的仓库。（您也可以使用不同的仓库名称，但这样生成的网站将通过 `https://<username>.github.io/<repository-name>` 访问。）
 
-2. Once the repository is created, create a GitHub codespace associated with it.
-![Create codespace](https://user-images.githubusercontent.com/5889006/156916672-43b7b6e9-4ffb-4704-b4ba-d5ca40ffcae7.png)
+![步骤 1](https://user-images.githubusercontent.com/5889006/156916624-20b2a784-f3a9-4718-aa5f-ce2a436b241f.png)
 
-3. While waiting for the codespace to be created, go to `Settings` -> `Pages` of your newly created repository, and set `Build and deployment` -> `Source` to `GitHub Actions`.
-![Change build and deployment source](https://github.com/user-attachments/assets/192459bf-25d8-441e-8029-c108d789e449)
+2. 创建仓库后，创建一个与其关联的 GitHub 代码空间。
 
-4. After the codespace is created, you can test that the site is built successfully by running `hugo server` in the terminal and see your new site in action. 
+![创建代码空间](https://user-images.githubusercontent.com/5889006/156916672-43b7b6e9-4ffb-4704-b4ba-d5ca40ffcae7.png)
 
-5. Check `config` folder for the configuration files. You can edit them to suit your needs. Make sure to update the `baseurl` property in `config/_default/config.toml` to your site's URL. For example, if your new repository is named `my-blog`, then the `baseurl` should be `https://<username>.github.io/my-blog/`.
+3. 在等待代码空间创建完成期间，前往新创建的仓库的“设置”->“页面”，并将“构建和部署”->“来源”设置为“GitHub Actions”。
 
-6. Once you're done editing the site, just commit it and push it. GitHub action will deploy the site automatically to GitHub page asociated with the repository.
+![更改构建和部署来源](https://github.com/user-attachments/assets/192459bf-25d8-441e-8029-c108d789e449)
+
+4. 代码空间创建完成后，您可以在终端运行 `hugo server` 命令来测试网站是否构建成功，并查看新网站的运行情况。
+
+5. 检查 `config` 文件夹以获取配置文件。您可以根据需要进行编辑。请务必将 `config/_default/config.toml` 文件中的 `baseurl` 属性更新为您网站的 URL。例如，如果您的新仓库名为 `my-blog`，则 `baseurl` 应为 `https://<username>.github.io/my-blog/`。
+
+6. 完成网站编辑后，只需提交并推送即可。GitHub Action 会自动将网站部署到与该仓库关联的 GitHub Pages。
 
 ---
 
-In case you don't want to use GitHub codespace, you can also run this template in your local machine. **You need to install Git, Go and Hugo extended locally.** For more information, check official Hugo documentation: https://gohugo.io/installation/
+如果您不想使用 GitHub Codespace，也可以在本地计算机上运行此模板。 **您需要在本地安装 Git、Go 和 Hugo Extended。** 更多信息，请查看 Hugo 官方文档：https://gohugo.io/installation/
 
-## Update theme manually
+## 手动更新主题
 
-Run:
+运行：
 
 ```bash
+
 hugo mod get -u github.com/CaiJimmy/hugo-theme-stack/v4
+
 hugo mod tidy
+
 ```
 
-> This starter template has been configured with `v4` version of theme. Due to the limitation of Go module, once the `v4` or up version of theme is released, you need to update the theme manually. (Modifying `config/module.toml` file)
+> 此入门模板已配置为主题的 `v4` 版本。由于 Go 模块的限制，一旦主题发布了 `v4` 或更高版本，您需要手动更新主题（修改 `config/module.toml` 文件）。
 
-## Deploy to another static page hostings
+## 部署到其他静态页面托管平台
 
-Check official Hugo documentation: https://gohugo.io/host-and-deploy/
+请查看 Hugo 官方文档：https://gohugo.io/host-and-deploy/
